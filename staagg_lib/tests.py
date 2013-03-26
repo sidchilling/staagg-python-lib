@@ -4,7 +4,7 @@ from staagg_lib import StaaggLib
 from pprint import pprint
 
 if __name__ == '__main__':
-    api_key = '576802a6c947d69f7ac6971f27aa171b'
+    api_key = '<YOUR_API_KEY>'
     staagg = StaaggLib(key = api_key) # This is the staagg object
 
     # Getting all the networks
