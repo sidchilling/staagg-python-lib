@@ -7,12 +7,6 @@ __author__ = 'Siddharth Saha (sidchilling@gmail.com)'
 import xml.etree.ElementTree as ET
 import requests
 
-import logging
-from pandora.utils import enable_console_logging
-
-log = logging.getLogger(__name__)
-enable_console_logging(log)
-
 class StaaggLib(object):
 
     BASE_URL = 'http://www.staagg.com/webservices/v4'
